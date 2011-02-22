@@ -7,6 +7,6 @@ class Nrg2iso <Formula
 
   def install
     system "make"
-    system "mkdir #{bin} && cp nrg2iso #{bin}"
+    bin.install 'nrg2iso'
   end
 end
