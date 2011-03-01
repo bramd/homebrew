@@ -7,6 +7,6 @@ class Nrg2iso <Formula
 
   def install
     system "make"
-    bin.install 'nrg2iso'
+    bin.install "nrg2iso"
   end
 end
