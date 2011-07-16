@@ -1,8 +1,8 @@
 require 'formula'
 
 class Cmake < Formula
-  url 'http://www.cmake.org/files/v2.8/cmake-2.8.4.tar.gz'
-  md5 '209b7d1d04b2e00986538d74ba764fcf'
+  url 'http://www.cmake.org/files/v2.8/cmake-2.8.5.tar.gz'
+  md5 '3c5d32cec0f4c2dc45f4c2e84f4a20c5'
   homepage 'http://www.cmake.org/'
 
   def install
